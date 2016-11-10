@@ -4,9 +4,17 @@
         <servlet-name>SPARQL</servlet-name>
         <servlet-class>de.hsmainz.sparqlproxy.SPARQL</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>GND</servlet-name>
+        <servlet-class>de.hsmainz.sparqlproxy.GND</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>SPARQL</servlet-name>
         <url-pattern>/SPARQL</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>GND</servlet-name>
+        <url-pattern>/GND</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
