@@ -1,2 +1,4 @@
-# sesame-sparqlproxy
-proxy for sesame triplestore
+# rdfproxy
+
+- proxy for OpenRDF Sesame Triplestore
+- proxy for GDN Turtle to RDF/JSON
