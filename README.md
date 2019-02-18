@@ -1,5 +1,7 @@
 # rdfproxy
 
+[![Build Status](https://travis-ci.com/i3mainz/rdfproxy.svg?branch=master)](https://travis-ci.com/i3mainz/rdfproxy)
+
 - proxy for OpenRDF Sesame Triplestore
 - proxy for GDN Turtle to RDF/JSON
 
